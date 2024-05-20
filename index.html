@@ -1,5 +1,78 @@
 <html>
   <body>
-    <p>HELLO</p>
+    <center>
+      <h1 class=title>CSP WEBSITE</h1>
+    </center>
+    <div class=left>
+      <ul>
+        <li>This is my CSP website</li>
+        <li>How's it going</li>
+        <li>I need more things for this list</li>
+        <li>Hello</li>
+      </ul>
+      <center>
+        <button type="button" onclick="myFunction()"> Click Me! </button>
+      </center>
+    </div>
+    <div class=right>
+      <img src="https://i.ytimg.com/vi/FIy_y9tYGcU/maxresdefault.jpg">
+    </div>
   </body>
 </html>
+
+<style>
+  body {
+  background: #f2f0d3;
+}
+
+.title {
+  color: #bf3493;
+  font-size: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-shadow: 1px 1px 2px #5c023f, 0 0 25px #9c106f, 0 0 5px #9c106f;
+}
+
+div {
+  float: left;
+}
+
+.left {
+  width: 50%;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #bf3493;
+}
+
+.right {
+  width: 50%;
+}
+
+img {
+  width: 80%;
+  transition: transform .2s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #bf3493;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+}
+</style>
+
+<script>
+  function myFunction() {
+  alert("Hey there");
+}
+</script>
