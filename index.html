@@ -3,6 +3,16 @@
     <title> Jillian's CSP Website </title>
   </head>
   <body>
+    <nav>
+      <li class="navli homeNav">
+        <a href="index.hmtl"> Home </a>
+      </li>
+      <li class="navli appsNav">
+        <a href="apps.html"> Apps </a>
+      </li>
+    </nav>
+    <br>
+    <br>
     <center>
       <h1 class=title>CSP WEBSITE</h1>
     </center>
@@ -25,7 +35,37 @@
 
 <style>
   body {
-  background: #f2f0d3;
+  background-color: #f5efc9;
+}
+
+nav {
+  list-style-type: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: #dbd191;
+  left: 0%;
+  top: 0%;
+  padding: 2px;
+  box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #bf3493;
+  text-shadow: 1px 1px 2px #5c023f, 0 0 5px #9c106f, 0 0 3px #9c106f;
+}
+
+.navli {
+  display: inline;
+  float: left;
+  padding: 18px ;
+}
+
+.navli:hover {
+  background-color: #d1c680;
 }
 
 .title {
